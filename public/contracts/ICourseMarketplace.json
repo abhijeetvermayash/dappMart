@@ -1,0 +1,146 @@
+{
+  "contractName": "ICourseMarketplace",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "withDraw",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"withDraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/ICourseMarketplace.sol\":\"ICourseMarketplace\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ICourseMarketplace.sol\":{\"keccak256\":\"0xf0f8ef35f7b6945392aeed127c45f7cb5eb1077a6d068633438d83dc9f868a24\",\"urls\":[\"bzz-raw://ef287bd8fff5c4e84efbbeae8611e88ecad578c3fc1acabd97b8ae2730dea2e0\",\"dweb:/ipfs/QmVv8Zno5Mt8YKXUZZCsJrFkb6SrJ8XTNqzvgvFbtV8g7y\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\r\n\r\n// Interface cannot have constructor\r\n//All declared function must be external\r\n//Interface only has defination no body\r\n\r\ninterface ICourseMarketplace {\r\n    function withDraw(uint256 amount) external;\r\n}\r\n",
+  "sourcePath": "E:\\1. Final Year\\cloned\\eth-market-course\\contracts\\ICourseMarketplace.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/ICourseMarketplace.sol",
+    "exportedSymbols": {
+      "ICourseMarketplace": [
+        512
+      ]
+    },
+    "id": 513,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 506,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 512,
+        "linearizedBaseContracts": [
+          512
+        ],
+        "name": "ICourseMarketplace",
+        "nameLocation": "169:18:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "14174f33",
+            "id": 511,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "withDraw",
+            "nameLocation": "204:8:1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 509,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 508,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "221:6:1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 511,
+                  "src": "213:14:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 507,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "213:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "212:16:1"
+            },
+            "returnParameters": {
+              "id": 510,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "237:0:1"
+            },
+            "scope": 512,
+            "src": "195:43:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 513,
+        "src": "159:82:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:243:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-06-14T04:33:06.606Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
